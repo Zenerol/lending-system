@@ -1,3 +1,12 @@
+/* resources/css/app.css */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Apply the font globally */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f8fafc; /* Very light slate, easier on eyes than white */
+}
